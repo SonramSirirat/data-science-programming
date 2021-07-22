@@ -1,4 +1,3 @@
-.git/
-.spyproject/
-/vs-workspace
+/.spyproject/
+/vs-workspace.code-workspace
 /.gitignore
