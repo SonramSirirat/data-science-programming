@@ -31,6 +31,6 @@ while stick > 0:
     else:
         print(stick, "stick(s) left")
         # Python AI
-        if stick
+        # if stick
         
         
