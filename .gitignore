@@ -1,4 +1,4 @@
-/.spyproject
-/.vs-workspace.code-workspace
-/.gitignore
+.gitignore
+.vs-workspace.code-workspace
 .Class_Materials
+.spyproject
