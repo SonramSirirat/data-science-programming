@@ -12,9 +12,13 @@ Created on Wed Jul 28 15:30:08 2021
 # 
 # Be carefull if [10,1] the answer is 110 not 101 
 # =============================================================================
+user_input = [int(x) for x in input('User Input: ').split()]
 
-f = [50, 2, 1, 9]
-
-for i in range(f):
-    if f[i] > f[0]:
-        print(int(f))
+i = 0
+print('Key', 'Value')
+while i < len(user_input):
+    # 0 < 4, 0 < 3, 0 < 2, 0 < 1
+    print(i, user_input[i])
+    # if user_input[i] >:
+    #     # [0]50 > 
+    i += 1
