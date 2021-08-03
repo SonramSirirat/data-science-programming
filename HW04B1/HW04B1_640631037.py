@@ -16,7 +16,7 @@ Created on Wed Jul 28 15:30:08 2021
 # Get user input
 user_input = [50, 2, 1, 9]
 # user_input = [2, 1, 3, 4, 5, 6, 7, 8, 9, 0]
-# user_input = [10, 1]
+# user_input = [20, 2]
 print('List of positive integers:', user_input)
 
 # Find the largest integer in the list
@@ -33,7 +33,7 @@ for i in user_input:
     # Count lenght i in user_input list
     length_int = len(str(i))
     
-    if i == 1:
+    if length_int == 1:
         dict_int[i] = (i + 1) * 10 ** (larg_len_int - length_int) - 1
     else:
         dict_int[i] = i * 10 ** (larg_len_int - length_int)
