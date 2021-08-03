@@ -14,8 +14,8 @@ Created on Wed Jul 28 15:30:08 2021
 # =============================================================================
 
 # Get user input
-# user_input = list(input("Type here: "))
 user_input = [50, 2, 1, 9]
+# user_input = [2, 1, 3, 4, 5, 6, 7, 8, 9, 0]
 # user_input = [10, 1]
 print('List of positive integers:', user_input)
 
@@ -30,9 +30,10 @@ print('Lenght of largest integer:', larg_len_int)
 # Create a dictionary contain a integer to compare each others
 dict_int = {}
 for i in user_input:
+    # Count lenght i in user_input list
     length_int = len(str(i))
     
-    if length_int == 1:
+    if i == 1:
         dict_int[i] = (i + 1) * 10 ** (larg_len_int - length_int) - 1
     else:
         dict_int[i] = i * 10 ** (larg_len_int - length_int)
@@ -40,7 +41,7 @@ print('Dictionary:', dict_int)
 
 # Sort dictionary value and rearrage new integers
 sorted_dict_int = sorted(dict_int, key=dict_int.__getitem__, reverse=True)
-print('Rearrage number:', sorted_dict_int)
+print('Rearrage integer:', sorted_dict_int)
 
 # Convert dictionary to string
 output = ''.join(str(o) for o in sorted_dict_int)
