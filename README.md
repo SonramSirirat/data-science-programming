@@ -12,8 +12,8 @@
 | ✅3: July 7  | Python Programming:Condition / Loop; GIT      | Spyder& GIT    | HW2: CodeA2  |
 | ✅4: July 14 | Program Structure and Mathematic Operations   | Spyder         | HW3: CodeA3  |
 | ✅5: July 21 | Data Structureand Data Manipulation           | ATOM           | HW4: CodeB1  |
-| 6: July 28 | Problem Solving Techniques                    | Excel, ATOM    | HW5: Code B2 |
-| 7: Aug  4  | Linear Algebra, Logic, Matrix and Programming | Onsite Lecture | HW6: Code C1 |
+| ✅6: July 28 | Problem Solving Techniques                    | Excel, ATOM    | HW5: Code B2 |
+| ✅7: Aug  4  | Linear Algebra, Logic, Matrix and Programming | Onsite Lecture | HW6: Code C1 |
 | 8: Aug  11 | Problem Solving using Programming             | Onsite Lecture | ---          |
 | 9: Aug  18 | Midterm (On site)                             | P1: Writing Exam P2: Coding Exam | --- |
 
