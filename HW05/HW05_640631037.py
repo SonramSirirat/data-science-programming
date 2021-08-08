@@ -1,12 +1,14 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Fri Aug  6 21:25:37 2021
+vanilla_ing = 0.5
+print('Vanilla ingredients', vanilla_ing)
 
-@author: sonram_sirirat
-"""
+strawberry_ing = 0.2
+print('Strawberry ingredients', strawberry_ing)
 
-# Identify Problem = How many boxes of vanilla and strawberry ice cream to get maximum profit
-# Formulate and Implement Model
-# Analyze Model
-# Test Results
-# Implement Solution
+fresh_milk = 10
+print('Fresh milk per day', fresh_milk)
+
+x = fresh_milk / vanilla_ing
+print('Amount of vanilla ice cream can make with others favor', x, 'Profit', x * 2)
+
+y = fresh_milk / strawberry_ing
+print('Amount of strawberry ice cream can make with others favor', y, 'Profit', x * 3)
