@@ -41,9 +41,3 @@ How many boxes of vanilla ice cream and strawberry ice cream that you would like
     - (0.5) * vanilla_ice + (0.2) * strawberry_ice <= 10: Maximum both favor ice cream boxes can make per day.
   - Maximum doll is 30 dolls per day 1 doll per boxes.
     - (0.5) * vanilla_ice + (0.2) * strawberry_ice <= 30: Maximun dolls for promotion per day.
-
-**Analyze Model**
-
-**Test Results**
-
-**Implement Solution**
