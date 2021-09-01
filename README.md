@@ -1,6 +1,6 @@
 # Data Science Programming
 
-**Welcome to 270702 001-000(1/64) - Data Science Programming**
+**270702 001-000(1/64) - Data Science Programming**
 
 📅Class Schedule: Wednesday ⏲13.00 – 16.00
 
